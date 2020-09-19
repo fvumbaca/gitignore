@@ -1,3 +1,4 @@
 .PHONY: install
 install:
-	go install github.com/fvumbaca/gitignore/cmd/gitignore
+	go generate github.com/fvumbaca/gitignore
+	go install github.com/fvumbaca/gitignore
